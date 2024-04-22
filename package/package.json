@@ -1,0 +1,37 @@
+{
+  "name": "react-cookies-consent",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "description": "React EU Cookies Consent Dialog",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "tsc && rollup -c --environment NODE_ENV:development",
+    "build": "tsc && rollup -c --environment NODE_ENV:production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apexmediacz/ReactCookiesConsent.git"
+  },
+  "author": "APEXMEDIA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apexmediacz/ReactCookiesConsent/issues"
+  },
+  "homepage": "https://github.com/apexmediacz/ReactCookiesConsent#readme",
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.16.1",
+    "typescript": "^5.4.5"
+  }
+}
